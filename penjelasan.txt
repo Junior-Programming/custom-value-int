@@ -1,0 +1,18 @@
+    Random Integer
+    --------------
+-> Penggunaan fungsi rand sangat mudah, kita hanya menentukan nilai minimal dan maksimal sesuai kebutuhan berapa nomor yang akan kita acak. Bentuk umum fungsi rand seperti dibawah ini.
+
+=> rand ( int $min , int $max )
+
+contoh :
+
+<?php
+
+$rand = rand(10, 50);
+
+echo $rand;
+
+?>
+
+
+-> hasil dari program diatas jika dijalankan maka akan mengacak nomor dari nilai 10 hingga 50. Jika teman-teman tidak mengisi nilai min dan maks maka akan menampikan nomor acak dari 0 hingga getrandmax().
